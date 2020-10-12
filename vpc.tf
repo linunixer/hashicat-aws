@@ -1,8 +1,4 @@
   
-provider "aws" {
-  region = "us-east-1"
-}
-
 module "vpc" {
   source = "app.terraform.io/philipgao2-training/vpc/aws"
   version = "2.57.0"
